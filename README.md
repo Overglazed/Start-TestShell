@@ -7,7 +7,6 @@ Alias `sts`
 This can be added to your profile profile. 
 
 ```
-New-Item -Type file $PROFILE -force
 iwr https://raw.githubusercontent.com/Overglazed/Start-TestShell/master/Start-TestShell.ps1 | select -expand Content | Out-File -Append $PROFILE -Force -Encoding utf8
 ```
 
